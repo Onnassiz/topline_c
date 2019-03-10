@@ -1,8 +1,10 @@
 import React from 'react';
-
-const App = () => (
+import Nav from './layout/Nav';
+import Main from './Main';
+const App = (props) => (
   <div className="App">
-    
+    <Nav />
+    <Main />
   </div>
 );
 
