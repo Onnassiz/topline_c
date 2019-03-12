@@ -87,13 +87,13 @@ body {
 
 /* Using className + hover followed by child element allows you to change child elements when parent is hovered */
 
-.card:hover .cardHoverText {
-  visibility: visible;
+.card:active .cardHoverText {
+  /* visibility: visible;
   transition: 0.4s all ease;
-  transition-delay: 0.1999s;
+  transition-delay: 0.1999s; */
 }
 
-.card:hover .cardBottom {
+/* .card:hover .cardBottom {
   transition: 0.4s all ease;
   height: 65%;
   opacity: 1;
@@ -104,4 +104,4 @@ body {
   height: 35%;
   opacity: 0.8;
   transition: 0.4s all ease;
-}
+} */

@@ -41,7 +41,7 @@ class Tops extends Component {
                     if (!loading) {
                       if (error) return <p>Error</p>;
                       return data.shirts.map(shirt => (
-                        <Card shirt={shirt} key={shirt.brand.name + shirt.id} />
+                        <Card shirt={shirt} key={shirt.id} />
                       ));
                     }
                     return <div>Loading...</div>;
