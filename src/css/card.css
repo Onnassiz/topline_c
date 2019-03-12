@@ -24,6 +24,7 @@ body {
 .cardTop {
   transition: 0.4s all ease;
   height: 70%;
+  overflow-y: scroll;
   /* background: url("https://i.ytimg.com/vi/lt0WQ8JzLz4/maxresdefault.jpg") no-repeat; */
 }
 
